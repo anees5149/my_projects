@@ -9,7 +9,7 @@ import csv
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--disable-notifications")
-keyword = "DRIVER"
+keyword = "employee"
 driver=webdriver.Chrome("C:\chromedriver.exe", chrome_options=chrome_options)
 driver.get("https://memegine.com/")
 time.sleep(10)                 
