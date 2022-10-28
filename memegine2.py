@@ -1,3 +1,4 @@
+from xml.etree.ElementTree import Comment
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
@@ -51,3 +52,6 @@ for post in posts:
 
 print("over")
 driver.close()
+
+
+# this is my Comment
